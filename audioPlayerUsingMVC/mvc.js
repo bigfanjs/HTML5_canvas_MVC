@@ -7,7 +7,7 @@
 	I preferred to make it very simple, because there still a lot
 	of other stuff the controller for exapmle has to take care of.
 
-	copyright(c) Adel Dfin 2016
+	copyright(c) Adel 2016
 */
 
 const body = {
