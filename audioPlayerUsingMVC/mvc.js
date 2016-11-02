@@ -486,11 +486,11 @@ const Model = {
 			playPause_img: resources.find( v => v.method == 'play' )
 		};
 
-		({  autoplay: s.autoplay,
-			duration: s.duration,
-			loop: s.loop,
-			volume: s.volume,
-			muted: s.muted
+		({ autoplay,
+		   duration,
+	           loop,
+		   volume,
+		   muted
 		} = audio);
 
 		Object.assign( this, s );
